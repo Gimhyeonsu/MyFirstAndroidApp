@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -15,6 +16,12 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="#13e7ce"
-        android:text="안녕하세요" />
+        android:text="안녕하세요"
+        android:textSize="45sp" />
 
-</RelativeLayout>
+    <ImageView
+        android:src="@drawable/iceland_1979445_1280"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
