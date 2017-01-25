@@ -65,6 +65,18 @@
         android:textSize="24sp" />
 
 
+
+
+    <TextView
+        android:id="@+id/smart_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#efbd07"
+        android:text="수원스마트"
+        android:textSize="32sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
     <TextView
         android:id="@+id/right3_text_view"
         android:layout_width="wrap_content"
@@ -84,16 +96,6 @@
         android:background="#f2cd44"
         android:text="왼쪽"
         android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/smart_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#efbd07"
-        android:text="수원스마트"
-        android:textSize="32sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
 
